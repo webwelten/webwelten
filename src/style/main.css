@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/**
+  * Main styles.
+  *
+  * The structure is based on ITCSS and modified:
+  * https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
+  *
+  * This helps the CSS specificity:
+  * https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+  *
+  * Author: Michael Abt <michael@webwelten.com>
+  */
+
+/**
+   * Settings.
+   *
+   */
+@import 'settings.color.css';
+@import 'settings.typo.css';
+
+/**
+   * Tools.
+   *
+   */
+
+/**
+   * Vendors.
+   *
+   * 3rd party vendors including normalize/reset.
+   * This is the first layer which generates actual CSS.
+   */
+@import '~normalize.css/normalize.css';
+
+/**
+  * Objects.
+  *
+  */
+@import 'objects.helpers.css';
+@import 'objects.container.css';
+
+/**
+  * Elements.
+  *
+  */
+@import 'elements.base.css';
+@import 'elements.typo.css';
+@import 'elements.link.css';
+
+/**
+  * Components.
+  *
+  */
+@import 'components.list-inline.css';
+
+/**
+  * Patterns.
+  *
+  */
+@import 'patterns.footer.css';

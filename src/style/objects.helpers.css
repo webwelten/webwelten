@@ -1,0 +1,5 @@
+
+
+:global .-rounded {
+  border-radius: calc(.2rem * var(--base-margin));
+}

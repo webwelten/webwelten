@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+table,fieldset, hr, blockquote {
+  margin-top: 0;
+  margin-bottom: calc(1rem * var(--base-margin));
+}
+
+body {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}

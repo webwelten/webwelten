@@ -1,0 +1,4 @@
+.footer {
+  padding: calc(1rem * var(--base-margin));
+  text-align: center;
+}

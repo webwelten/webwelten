@@ -1,0 +1,19 @@
+:root {
+  --base-fontSize: 1;
+  --base-height: 1.5;
+  --base-margin: 1.5;
+
+  --breakpoint-sm: 40em;
+  --breakpoint-md: 60em;
+
+  --fontSize-80: calc(1rem * var(--base-fontSize));
+  --fontSize-50: calc(1.2rem * var(--base-fontSize));
+  --fontSize-40: calc(1.65rem * var(--base-fontSize));
+  --fontSize-30: calc(1.7rem * var(--base-fontSize));
+  --fontSize-20: calc(1.85rem * var(--base-fontSize));
+  --fontSize-10: calc(3.6rem * var(--base-fontSize));
+  --fontSize-base: 1.2rem;
+
+  --font-title: Tahoma, sans-serif;
+  --font-longText: 'Open Sans', Helvetica, Arial, sans-serif;
+}

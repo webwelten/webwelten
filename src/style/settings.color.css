@@ -1,0 +1,7 @@
+:root {
+  --primary-color: hsla(225, 61%, 61%, .8);
+  --primary-color: rgb(66, 80, 120);
+
+  --secondary-color: #EEE;
+  --secondary-text: #444;
+}
