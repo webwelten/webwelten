@@ -10,8 +10,8 @@ const Intro = Section.extend`
   align-items: center;
 
   background-color: rgb(245, 250, 255);
-  background: linear-gradient(90deg, transparent, rgba(0, 0, 0, .3) 70% );
-  color: #CCC;
+  background: var(--primary-gradient);
+  color: var(--secondary-color);
 
   height: 100vh;
 `;
