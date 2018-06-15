@@ -1,5 +1,10 @@
 
 
-:global .-rounded {
+.-rounded {
   border-radius: calc(.2rem * var(--base-margin));
+}
+
+.img-fluid {
+  width: 100%;
+  max-height: auto;
 }
