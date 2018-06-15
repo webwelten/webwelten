@@ -1,0 +1,25 @@
+.button {
+  padding: calc(.2rem * var(--base-margin)) calc(1.0rem * var(--base-margin));
+  text-decoration: none;
+  color: inherit;
+}
+
+.-large {
+  padding: calc(.3rem * var(--base-margin)) calc(2.0rem * var(--base-margin));
+  font-size: 1.4rem;
+}
+
+.-primary.-filled {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.-primary.-outline {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.-secondary.-outline {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
