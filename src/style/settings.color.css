@@ -4,4 +4,6 @@
 
   --secondary-color: #EEE;
   --secondary-text: #444;
+
+  --primary-gradient: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.3) 70%);
 }
