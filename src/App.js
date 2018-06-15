@@ -1,11 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import './style/main.css';
+
+import Button from './components/Button';
+import Section from './components/Section';
+
 const App = () => (
-  <div>
-    <p>Hello World!</p>
+  <div className="container">
+    <Section shadow>
+      <p>Hello World!</p>
+      <p><a href="/test.html">Das ist ein Link…</a></p>
+      <Button href="/neu.html">Test</Button>
+      <ul className="list-inline">
+        <li>Test 1</li>
+        <li>Test 2</li>
+        <li>Test 3</li>
+      </ul>
+      <footer className="footer">
+        Impressum
+      </footer>
+    </Section>
   </div>
 );
 
-export default App;
 ReactDOM.render(<App />, document.getElementById('app'));
+export default App;
