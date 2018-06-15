@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import './style/main.css';
 
 import Intro from './patterns/Intro';
+import Profile from './patterns/Profile';
 
 import Button from './components/Button';
 import Section from './components/Section';
@@ -11,6 +12,7 @@ import Section from './components/Section';
 const App = () => (
   <div className="container">
     <Intro />
+    <Profile />
 
     <Section shadow>
       <p>Hello World!</p>
