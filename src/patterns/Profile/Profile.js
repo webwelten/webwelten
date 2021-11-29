@@ -29,8 +29,8 @@ export default () => (
     </div>
 
     <div>
-      <h2 className="">Hello, I am Michael&nbsp;Abt</h2>
-      <h3>Bla blub</h3>
+      <h2 className="">Hey, my name is Michael Abt</h2>
+      <h3>My passion is Web development with focus on frontend, usability and UX with 10 years of professional experience.</h3>
       <ul className="list-inline list-unstyled mb-0">
         <li><a href="https://www.xing.com/profile/Michael_Abt7">XING</a></li>
         <li><a href="https://github.com/webwelten">Github</a></li>
